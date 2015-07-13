@@ -41,6 +41,28 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  gem 'rspec-rails','2.0.0.beta.18'
+  gem 'rspec-rails', '~> 3.1'
+  #gem 'ZenTest', '~> 4.5'
+  gem 'factory_girl_rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+  gem 'spork-rails', github: 'sporkrb/spork-rails' # rubygems version not rails 4 compatible
+  #gem 'spork', '~> 1.0rc'
+  gem 'guard-spork'
+  gem 'guard-rspec', require: false
+  gem 'autotest-rails'
+  gem 'ZenTest'
+  #gem 'autotest-rails-pure', '~> 4.1.2'
+  gem 'rspec-autotest'
+  #gem 'spec_helper', '>= 1.8'
+  gem 'autotest-growl'
+  gem 'autotest-fsevent'
 end
+
+
+
+  
+
+
+
 
